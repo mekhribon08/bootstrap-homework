@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-4 mt-5">
+          <form>
+            <div class="input-group pb-2">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="ave"
+                aria-label="ave"
+                aria-describedby="addon-wrapping"
+              />
+            </div>
+            <div class="input-group pb-2">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="5"
+                aria-label="5"
+                aria-describedby="addon-wrapping"
+              />
+            </div>
+
+            <div class="input-group pb-2">
+              <!-- <label for="inputState" class="form-label"></label> -->
+              <select id="inputState" class="form-select">
+                <option selected>All</option>
+                <option>...</option>
+              </select>
+            </div>
+
+            <div class="input-group">
+              <!-- <label for="inputState" class="form-label"></label> -->
+              <select id="inputState" class="form-select">
+                <option selected>Rating (high to low)</option>
+                <option>...</option>
+              </select>
+            </div>
+          </form>
+          <button
+            class="btn btn-primary mt-3"
+            type="button"
+            style="width: 23.4rem"
+          >
+            Button
+          </button>
+
+          <div class="mt-4">
+            <h2>Bookmarked movies</h2>
+            <ul class="list-group" style="width: 22rem">
+              <li class="list-group-item">
+                Avengers: Infinity War
+                <button type="button" class="btn btn-danger">Remove</button>
+              </li>
+              <li class="list-group-item">
+                The Avengers
+                <button type="button" class="btn btn-danger">Remove</button>
+              </li>
+              <li class="list-group-item">
+                12 Years a Slave
+                <button type="button" class="btn btn-danger">Remove</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-8">
+          <h2 class="text-center">Movies catalog</h2>
+          <h4>Search results: 39</h4>
+          <div class="alert alert-primary" role="alert" style="width: 47rem">
+            Use the form on the left to search for a movie
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="./capsule_616x353.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Avengars: Infinity War</h5>
+                  <p class="card-text">📋 2018</p>
+                  <p class="card-text">🌟 8.7</p>
+                  <button type="button" class="btn btn-outline-primary">
+                    Watch trailer
+                  </button>
+                  <button type="button" class="btn btn-outline-info">
+                    More info
+                  </button>
+                  <button type="button" class="btn btn-outline-success">
+                    Bookmark
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="./4c0d1915328699ef24c63.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Avengars: Infinity War</h5>
+                  <p class="card-text">📋 2012</p>
+                  <p class="card-text">🌟 8.1</p>
+                  <button type="button" class="btn btn-outline-primary">
+                    Watch trailer
+                  </button>
+                  <button type="button" class="btn btn-outline-info">
+                    More info
+                  </button>
+                  <button type="button" class="btn btn-outline-success">
+                    Bookmark
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-group mt-4" role="group" style="width: 10rem">
+            <button type="button" class="btn btn-outline-primary">1</button>
+            <button type="button" class="btn btn-outline-primary">2</button>
+            <button type="button" class="btn btn-outline-primary">3</button>
+            <button type="button" class="btn btn-outline-primary">4</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
